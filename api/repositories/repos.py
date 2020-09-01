@@ -83,3 +83,4 @@ class Repos(RestClient):
         https://developer.github.com/v3/repos/#edit
         """
         return self.patch("/repos/{}/{}".format(owner, repo), **kwargs)
+    # 提交练习
